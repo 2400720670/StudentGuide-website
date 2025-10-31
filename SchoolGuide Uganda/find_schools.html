@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Schools</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="p-3 bg-dark text-center ">
+    <a href="index.html" class="mx-2 text-white">Home</a>
+    <a href="find_schools.html" class="mx-2 text-white">Find Schools</a>
+    <a href="contacts.html" class="mx-2 text-white">Contact Us</a>
+  </nav>
+
+  <!-- Search Section -->
+  <section class="search container my-5">
+    <h1 class="mb-4 text-center">Search for Schools</h1>
+    <form>
+      <div class="mb-3">
+        <label for="location" class="form-label">Location:</label>
+        <input type="text" name="location" id="location" class="form-control" placeholder="e.g Kampala">
+      </div>
+
+      <div class="mb-3">
+        <label for="type" class="form-label">Type:</label>
+        <select name="type" id="type" class="form-select">
+          <option>-- Select Type --</option>
+          <option>Private</option>
+          <option>Public</option>
+          <option>International</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="grade" class="form-label">Grade:</label>
+        <input type="text" name="grade" id="grade" class="form-control" placeholder="e.g 1–12">
+      </div>
+
+      <div class="mb-3">
+        <label for="rating" class="form-label">Rating:</label>
+        <select name="rating" id="rating" class="form-select">
+          <option>-- Any Rating --</option>
+          <option>5 stars</option>
+          <option>4 stars & up</option>
+          <option>3 stars & up</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </section>
+
+  <!-- Featured Schools -->
+  <h2 class="text-center my-5">Featured Schools</h2>
+
+  <section class="container">
+  <div class="row g-4">
+
+    <!-- Card 1 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100 d-flex flex-column">
+        <img src="assets/images/background/DSC_5722.jpeg" class="card-img-top" alt="Uganda Martyrs' Secondary School Namugongo">
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title">Uganda Martyrs' Secondary School Namugongo</h3>
+          <p><strong>Location:</strong> Namugongo, Wakiso District</p>
+          <p><strong>Rating:</strong> ⭐ 4.7 / 5</p>
+          <p><strong>Grades:</strong> S1–S6</p>
+          <p><strong>Curriculum:</strong> Uganda National Curriculum</p>
+          <p>Strong academic results, excellent reputation, and high national rankings.</p>
+          <div class="mt-auto d-flex gap-2">
+            <a href="https://ugandamartyrs.ac.ug/" class="btn btn-primary">View Details</a>
+            <a href="https://ugandamartyrs.ac.ug/contact-us/" class="btn btn-secondary">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100 d-flex flex-column">
+        <img src="assets/images/icu.jpg" class="card-img-top" alt="International School of Uganda">
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title">International School of Uganda (ISU)</h3>
+          <p><strong>Location:</strong> Lubowa, Kampala outskirts</p>
+          <p><strong>Rating:</strong> ⭐ 5 / 5</p>
+          <p><strong>Grades:</strong> Preschool–Grade 12</p>
+          <p><strong>Curriculum:</strong> International Baccalaureate (IB)</p>
+          <p>Offers global education, multicultural environment, and excellent facilities.</p>
+          <div class="mt-auto d-flex gap-2">
+            <a href="https://www.isu.ac.ug/" class="btn btn-primary">View Details</a>
+            <a href="https://www.isu.ac.ug/admissions/how-to-apply" class="btn btn-secondary">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100 d-flex flex-column">
+        <img src="assets/images/viena 1.jpg" class="card-img-top" alt="Vienna College Namugongo">
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title">Vienna College Namugongo</h3>
+          <p><strong>Location:</strong> Namugongo Road, Wakiso District</p>
+          <p><strong>Rating:</strong> ⭐ 4 / 5</p>
+          <p><strong>Grades:</strong> S1–S6</p>
+          <p><strong>Curriculum:</strong> Cambridge International (IGCSE & A-Level)</p>
+          <p>British-style education with international recognition.</p>
+          <div class="mt-auto d-flex gap-2">
+            <a href="https://vienna.ug/" class="btn btn-primary">View Details</a>
+            <a href="https://www.vienna.ug/contact/" class="btn btn-secondary">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100 d-flex flex-column">
+        <img src="assets/images/namilyango 2.webp" class="card-img-top" alt="Namilyango College">
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title">Namilyango College</h3>
+          <p><strong>Location:</strong> Mukono District</p>
+          <p><strong>Rating:</strong> ⭐ 5 / 5</p>
+          <p><strong>Grades:</strong> S1–S6</p>
+          <p><strong>Curriculum:</strong> Uganda National Curriculum</p>
+          <p>Rich history, excellent academic record, and strong alumni network.</p>
+          <div class="mt-auto d-flex gap-2">
+            <a href="https://namilyangocollege.education/" class="btn btn-primary">View Details</a>
+            <a href="https://namilyangocollege.education/contactus.php" class="btn btn-secondary">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100 d-flex flex-column">
+        <img src="assets/images/agakan.jpeg" class="card-img-top" alt="Aga Khan High School">
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title">Aga Khan High School (International Stream)</h3>
+          <p><strong>Location:</strong> Old Kampala, Uganda</p>
+          <p><strong>Rating:</strong> ⭐ 3 / 5</p>
+          <p><strong>Grades:</strong> Secondary</p>
+          <p><strong>Curriculum:</strong> International Stream</p>
+          <p>Focuses on global perspectives and international learning experiences.</p>
+          <div class="mt-auto d-flex gap-2">
+            <a href="https://agakhanschools.org/Uganda/AKHSK/Index" class="btn btn-primary">View Details</a>
+            <a href="https://www.agakhanschools.org/Home/ContactUs" class="btn btn-secondary">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100 d-flex flex-column">
+        <img src="assets/images/divine.png" class="card-img-top" alt="Divine Secondary School Bulisa">
+        <div class="card-body d-flex flex-column">
+          <h3 class="card-title">Divine Secondary School, Bulisa</h3>
+          <p><strong>Location:</strong> Bulisa District</p>
+          <p><strong>Rating:</strong> ⭐ 3 / 5</p>
+          <p><strong>Grades:</strong> S1–S6</p>
+          <p><strong>Curriculum:</strong> Uganda National Curriculum</p>
+          <p>Committed to quality education and holistic student development.</p>
+          <div class="mt-auto d-flex gap-2">
+            <a href="https://divinesecondaryschool.com/" class="btn btn-primary">View Details</a>
+            <a href="https://divinesecondaryschool.com/#" class="btn btn-secondary">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <div class="text-center my-5">
+    <a href="https://www.monitor.co.ug/resource/blob/4923190/9f9e38ca946e7fcee4210015316e4e39/list4-data.pdf" class="btn btn-outline-primary">More</a>
+  </div>
+
+</body>
+</html>
